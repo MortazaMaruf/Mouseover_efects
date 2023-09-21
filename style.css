@@ -1,0 +1,37 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background:black;
+    color:white;
+    font-family:arial;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#container{
+    height:100px;
+    border-bottom:2px solid white;
+    position: relative;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    
+}
+#container h1{
+    font-size:6vw;
+    padding-left:10px;
+    z-index:2;
+    mix-blend-mode:difference;
+}
+#container img{
+    height:150px;
+    position:absolute;
+    opacity:0;
+    transition:all linear .3s;
+    border-radius:40px;
+    object-fit:cover;
+    object-position: center;
+    
+}
